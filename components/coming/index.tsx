@@ -7,7 +7,7 @@ import { Countdown } from "./countdown"
 export default function ComingSoonPage() {
     // Set your target date here (e.g., 10 days from now)
     const targetDate = new Date()
-    targetDate.setDate(targetDate.getDate() + 10)
+    targetDate.setDate(targetDate.getDate() + 3)
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-animated bg-black animate-gradient-x text-white p-4 text-center overflow-hidden relative">
@@ -20,23 +20,23 @@ export default function ComingSoonPage() {
                 </div>
 
                 <h1 className="text-3xl md:text-5xl  font-extrabold tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-fade-in animate-fade-in-2">
-                    Launching Soon.
+                    Our site in under maintenance.
                     <br />
-                    Get Ready.
+                    We'll be back online shortly.
                 </h1>
-                <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto animate-fade-in animate-fade-in-3">
+               {/*  <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto animate-fade-in animate-fade-in-3">
                     We&apos;re meticulously crafting an experience that will redefine your expectations. Stay tuned for something truly
                     exceptional.
                 </p>
-
+ */}
                 <Countdown targetDate={targetDate.toISOString()} className="animate-fade-in animate-fade-in-4" />
 
-                <div className="space-y-6 animate-fade-in animate-fade-in-5">
+                {/* <div className="space-y-6 animate-fade-in animate-fade-in-5">
                     <h2 className="text-2xl md:text-3xl font-semibold text-gray-100">Be the First to Know</h2>
                     <p className="text-gray-300">Join our exclusive list for early access, updates, and special announcements.</p>
                     <NewsletterForm />
                 </div>
-
+ */}
                 <div className="flex justify-center space-x-6 pt-10 animate-fade-in animate-fade-in-5">
                     <a
                         href="#"
