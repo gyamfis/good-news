@@ -7,7 +7,7 @@ import { Countdown } from "./countdown"
 export default function ComingSoonPage() {
     // Set your target date here (e.g., 10 days from now)
     const targetDate = new Date()
-    targetDate.setDate(targetDate.getDate() + 3)
+    targetDate.setDate(targetDate.getDate() + 4)
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-animated bg-black animate-gradient-x text-white p-4 text-center overflow-hidden relative">
@@ -20,7 +20,7 @@ export default function ComingSoonPage() {
                 </div>
 
                 <h1 className="text-3xl md:text-5xl  font-extrabold tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 animate-fade-in animate-fade-in-2">
-                    Our site in under maintenance.
+                    Our site is under maintenance.
                     <br />
                     We'll be back online shortly.
                 </h1>
